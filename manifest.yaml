@@ -1,0 +1,42 @@
+version: 0.0.1
+type: plugin
+author: jaguarliu
+name: rookie-weather
+label:
+  en_US: rookie-weather
+  ja_JP: rookie-weather
+  zh_Hans: rookie-weather
+  pt_BR: rookie-weather
+description:
+  en_US: 菜鸟天气
+  ja_JP: 菜鸟天气
+  zh_Hans: 菜鸟天气
+  pt_BR: 菜鸟天气
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/rookie-weather.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-02T21:23:35.268797+08:00
+privacy: PRIVACY.md
+verified: false

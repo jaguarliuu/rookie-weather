@@ -1,0 +1,17 @@
+identity:
+  author: jaguarliu
+  name: rookie-weather
+  label:
+    en_US: rookie-weather
+    zh_Hans: rookie-weather
+    pt_BR: rookie-weather
+  description:
+    en_US: 菜鸟天气
+    zh_Hans: 菜鸟天气
+    pt_BR: 菜鸟天气
+  icon: icon.svg
+tools:
+  - tools/rookie-weather.yaml
+extra:
+  python:
+    source: provider/rookie-weather.py
