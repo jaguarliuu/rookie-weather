@@ -11,7 +11,7 @@ class RookieWeatherProvider(ToolProvider):
             """
             IMPLEMENT YOUR VALIDATION HERE
             """
-            for _ in GaodeWeatherTool.from_credentials(credentials).invoke(
+            for _ in GaodeWeatherTool.from_credentials(credentials.get("gaode_api_key")).invoke(
                 tool_parameters={"city":"西安"}  
             ):
                 pass
