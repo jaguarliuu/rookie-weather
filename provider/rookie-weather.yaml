@@ -3,15 +3,31 @@ identity:
   name: rookie-weather
   label:
     en_US: rookie-weather
-    zh_Hans: rookie-weather
+    zh_Hans: 菜鸟天气-聚合天气服务
     pt_BR: rookie-weather
   description:
-    en_US: 菜鸟天气
-    zh_Hans: 菜鸟天气
+    en_US: Rookie Weather a weather query service plugin that aggregates multiple weather services.
+    zh_Hans: 一款聚合了多种天气服务的天气查询服务插件
     pt_BR: 菜鸟天气
   icon: icon.svg
+  tags:
+    - weather
+credentials_for_provider: #添加 credentials_for_provider 字段
+  gaode_api_key:
+    type: secret-input
+    required: true
+    label:
+      en_US: gaode API key
+      zh_Hans: 高德 API key
+    placeholder:
+      en_US: Please input your gaode API key
+      zh_Hans: 请输入你的 高德 API key
+    help:
+      en_US: Get your gaode API key from Gaode
+      zh_Hans: 从 高德 获取您的 高德 API key
+    url: https://console.amap.com/dev/key/app
 tools:
-  - tools/rookie-weather.yaml
+  - tools/gaode_weather.yaml
 extra:
   python:
     source: provider/rookie-weather.py
