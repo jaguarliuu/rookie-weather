@@ -27,20 +27,6 @@ parameters:
       pt_BR: 高德天气
     llm_description: 高德天气
     form: llm
-  - name: days
-    type: number
-    required: false
-    default: 1
-    label:
-      en_US: Number of days
-      zh_Hans: 查询的天数
-      pt_BR: Número de dias
-    human_description:
-      en_US: 指定要查询多少天的天气（默认为当天）
-      zh_Hans: 指定要查询多少天的天气（默认为当天）
-      pt_BR: 指定要查询多少天的天气（默认为当天）
-    llm_description: 查询的天数，默认为当天
-    form: llm 
 extra:
   python:
     source: tools/gaode_weather.py
