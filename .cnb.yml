@@ -9,7 +9,7 @@ main:
         - name: sync to github
           image: tencentcom/git-sync
           settings:
-            target_url: https://github.com/Eumenides1/rookie-weather.git
+            target_url: https://github.com/jaguarliuu/rookie-weather.git
             auth_type: https
             username: $GIT_USERNAME
             password: $EUMENIDES_TOKEN
