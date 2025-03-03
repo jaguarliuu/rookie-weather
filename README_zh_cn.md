@@ -1,6 +1,6 @@
 ## 菜鸟天气 - Dify 插件
 
-**Author:** jaguarliu
+**Author:** Eumenides1
 **Version:** 0.0.1
 **Type:** tool
 

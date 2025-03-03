@@ -1,6 +1,6 @@
 ## rookie-weather
 
-**Author:** jaguarliu
+**Author:** Eumenides1
 **Version:** 0.0.1
 **Type:** tool
 
