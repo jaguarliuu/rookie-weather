@@ -1,9 +1,9 @@
 identity:
-  name: gaode-weather
-  author: 42667189
+  name: gaode_weather
+  author: Eumenides1
   label:
     en_US: gaode weather
-    zh_Hans: gaode weather
+    zh_Hans: 高德天气
     pt_BR: gaode weather
   tags:
     - weather

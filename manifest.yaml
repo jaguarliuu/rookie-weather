@@ -1,6 +1,6 @@
-version: 0.0.6
+version: 0.0.7
 type: plugin
-author: "Eumenides1"
+author: Eumenides1
 name: rookie-weather
 label:
   en_US: rookie-weather
