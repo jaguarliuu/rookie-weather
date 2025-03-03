@@ -3,6 +3,8 @@ main:
     - services:
         - docker
       imports: https://cnb.cool/jaguarliu.cool/dify-tool/keys/-/blob/main/git_token.yml
+      docker:
+        build: .ide/Dockerfile
       stages:
         - name: sync to github
           image: tencentcom/git-sync
