@@ -1,6 +1,6 @@
-version: 0.0.8
+version: 0.0.9
 type: plugin
-author: jaguarliu
+author: eumenides1
 name: rookie-weather
 label:
   en_US: rookie-weather
