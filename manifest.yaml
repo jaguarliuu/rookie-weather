@@ -1,6 +1,6 @@
 version: 0.0.8
 type: plugin
-author: Eumenides1
+author: jaguarliu
 name: rookie-weather
 label:
   en_US: rookie-weather
@@ -12,7 +12,7 @@ description:
   ja_JP: 菜鸟天气
   zh_Hans: 菜鸟天气
   pt_BR: 菜鸟天气
-icon: icon.svg
+icon: weather.svg
 resource:
   memory: 1048576
   permission:
