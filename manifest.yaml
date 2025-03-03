@@ -1,6 +1,6 @@
-version: 0.0.1
+version: 0.0.6
 type: plugin
-author: 42667189
+author: "Eumenides1"
 name: rookie-weather
 label:
   en_US: rookie-weather
@@ -14,7 +14,7 @@ description:
   pt_BR: 菜鸟天气
 icon: icon.svg
 resource:
-  memory: 268435456
+  memory: 1048576
   permission:
     tool:
       enabled: true
