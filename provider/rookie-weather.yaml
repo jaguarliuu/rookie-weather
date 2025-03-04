@@ -15,7 +15,7 @@ identity:
 credentials_for_provider: #添加 credentials_for_provider 字段
   gaode_api_key:
     type: secret-input
-    required: false
+    required: true
     label:
       en_US: gaode API key
       zh_Hans: 高德 API key
